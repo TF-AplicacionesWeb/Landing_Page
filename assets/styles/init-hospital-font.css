@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'HospitalBold';
+    src: url(/assets/fonts/hospital-bold-webfont.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HospitalMedium';
+    src: url(/assets/fonts/hospital-medium-webfont.ttf);
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: 'HospitalBlack';
+    src: url(/assets/fonts/hospital-black-webfont.ttf);
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'HospitalRegular';
+    src: url(/assets/fonts/hospital-regular-webfont.ttf);
+    font-weight:normal;
+}

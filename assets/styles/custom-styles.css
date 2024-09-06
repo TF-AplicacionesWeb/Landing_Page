@@ -1,0 +1,95 @@
+@import "init-hospital-font.css";
+
+main {
+    margin-top: 150px; /* Ajusta este valor según la altura de tu barra de navegación */
+}
+body {
+    font-family: 'HospitalRegular', 'Inter', sans-serif !important;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-navbar {
+    background-color: #D1F2EB;
+}
+
+.custom-button{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.custom-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+    font-family: HospitalBold;
+    font-size: 1.2rem;
+}
+.card-img-custom {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+.no-hover:hover {
+    background-color: unset;
+    box-shadow: none;
+
+}
+
+.animation {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animation:hover {
+    transform: scale(2.1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+#img-about-us, #img-services {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#img-about-us:hover, #img-services:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.card-title {
+    font-family: HospitalBold;
+}
+
+.custom-img-card{
+    width: 30%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
