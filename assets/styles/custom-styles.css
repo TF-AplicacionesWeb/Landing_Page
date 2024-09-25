@@ -93,3 +93,73 @@ img {
 body {
     overflow-x: hidden;
 }
+
+
+/* Estilos para las suscripciones */
+.subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #D1F2EB;
+    border-radius: 10px;
+}
+
+.subscription-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscription-plan {
+    width: 300px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.subscription-plan h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subscription-plan .price {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.subscription-plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subscription-plan ul li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Diferentes colores para cada plan */
+.free-plan {
+    border: 2px solid #28a745;
+}
+
+.standard-plan {
+    border: 2px solid #ffc107;
+}
+
+.premium-plan {
+    border: 2px solid #dc3545;
+}
+
+/* Hover effect */
+.subscription-plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
