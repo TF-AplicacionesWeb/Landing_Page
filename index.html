@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MediTech</title>
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="assets/styles/custom-styles.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
-        rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>MediTech</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="assets/styles/custom-styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+          rel="stylesheet">
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <nav id="home" class="navbar fixed-top position-fixed navbar-expand-lg custom-navbar">
+<nav id="home" class="navbar fixed-top position-fixed navbar-expand-lg custom-navbar">
 
     <div class="container-fluid">
         <img data-aos="fade-right" src="assets/img/circle_noun_001_02738.jpg" alt="Logo" width="70" height="70"
@@ -30,6 +30,9 @@
                     <a data-aos="fade-down" class="nav-link" href="#services-container">Servicios</a>
                 </li>
                 <li class="nav-item mx-5">
+                    <a data-aos="fade-down" class="nav-link" href="#subscription-container">Suscripciones</a>
+                </li>
+                <li class="nav-item mx-5">
                     <a data-aos="fade-down" class="nav-link" href="#extra-info-container">Información</a>
                 </li>
 
@@ -37,7 +40,9 @@
         </div>
 
         <div class="dropdown mx-lg-3">
-            <button class="btn btn-secondary dropdown-toggle rounded-pill rounded-2 shadow-lg" style="background: #1A0E10; color: #FFFFFF;" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle rounded-pill rounded-2 shadow-lg"
+                    style="background: #1A0E10; color: #FFFFFF;" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="bi bi-translate"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -59,7 +64,7 @@
 </nav>
 
 <main>
-<div id="about-us-container" class="m-lg-5">
+    <div id="about-us-container" class="m-lg-5">
         <div class="row align-items-center">
             <div class="col-md-6 text-center">
                 <img data-aos="fade-right" id="img-about-us" class="rounded-5 " alt="img_title"
@@ -118,7 +123,7 @@
         </div>
 
     </div>
-<div id="services-container" class="mt-lg-1 mb-lg-1">
+    <div id="services-container" class="mt-lg-1 mb-lg-1">
         <div class="row align-items-center" id="description-services">
             <div class=" d-flex flex-column justify-content-center align-items-center text-center"
                  style="width: 40%; font-size: 20px;">
@@ -194,17 +199,49 @@
                 </div>
             </div>
         </div>
+
+        <div id="subscription-container" class="subscription-container">
+            <h2>Nuestras Suscripciones</h2>
+
+            <div class="subscription-plan free-plan">
+                <h3>Free Trial</h3>
+                <h3>(Primer Mes)</h3>
+                <p class="price"> S/ 0</p>
+                <ul>
+                    <li>Acceso limitado</li>
+                    <li>Máximo de 250 datos almacenados</li>
+                    <li>Características básicas</li>
+                </ul>
+            </div>
+
+            <div class="subscription-plan premium-plan">
+                <h3>Premium</h3>
+                <p class="price">S/50</p>
+                <ul>
+                    <li>Métricas avanzadas</li>
+                    <li>Base de datos expandida</li>
+                    <li>Caracteristicas avanzadas</li>
+                    <li>Base de datos ilimitada</li>
+                    <li>Backup automático</li>
+                    <li>Soporte prioritario</li>
+                    <li>Todas las caracteristicas</li>
+                </ul>
+            </div>
+
+        </div>
+
         <div class="container">
             <p class="fs-1 text-center">Conoce sobre más beneficios contáctandote con nosotros</p>
         </div>
 
     </div>
 
-  
-<div id="contact-us-container" class="container mx-auto mb-5" style="width: 600px">
+
+    <div id="contact-us-container" class="container mx-auto mb-5" style="width: 600px">
 
         <div class="d-flex justify-content-center mt-4 mb-4">
-            <button id="contactButton" class="btn btn-primary align-items-center custom-button" style="width: 120px; background-color: #2C3E50;"
+            <button id="contactButton" class="btn btn-primary align-items-center custom-button"
+                    style="width: 120px; background-color: #2C3E50;"
                     type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseExample"
                     aria-expanded="false" aria-controls="collapseExample">
@@ -256,7 +293,8 @@
                             </label>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#finishModal" style="background-color: #2C3E50;">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#finishModal"
+                            style="background-color: #2C3E50;">
                         Enviar
                     </button>
 
@@ -285,47 +323,12 @@
             </div>
         </div>
 
-    <div class="subscription-container">
-        <h2>Nuestras Suscripciones</h2>
-
-        <div class="subscription-plan free-plan">
-            <h3>Gratis</h3>
-            <p class="price"> S/ 0</p>
-            <ul>
-                <li>Acceso limitado</li>
-                <li>Máximo de 250 datos almacenados</li>
-                <li>Características básicas</li>
-            </ul>
-        </div>
-
-        <div class="subscription-plan standard-plan">
-            <h3>Estándar</h3>
-            <p class="price">S/50</p>
-            <ul>
-                <li>Métricas avanzadas</li>
-                <li>Base de datos expandida</li>
-                <li>Caracteristicas avanzadas</li>
-            </ul>
-        </div>
-
-        <div class="subscription-plan premium-plan">
-            <h3>Premium</h3>
-            <p class="price"> S/ 100</p>
-            <ul>
-                <li>Base de datos ilimitada</li>
-                <li>Backup automático</li>
-                <li>Soporte prioritario</li>
-                <li>Todas las caracteristicas</li>
-            </ul>
-        </div>
     </div>
 
-</div>
 
-  
 </main>
 <footer class="bg-dark text-light py-4">
-<div class="container" id="extra-info-container">
+    <div class="container" id="extra-info-container">
         <div class="row text-center">
             <!-- Enlaces rápidos -->
             <div class="col-md-4 mb-3">
@@ -380,7 +383,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
-  AOS.init();
+    AOS.init();
 </script>
 </body>
 </html>

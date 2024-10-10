@@ -101,7 +101,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #D1F2EB;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
@@ -147,16 +147,14 @@ body {
 
 /* Diferentes colores para cada plan */
 .free-plan {
-    border: 2px solid #28a745;
-}
-
-.standard-plan {
-    border: 2px solid #ffc107;
+    border: 2px solid #317070;
 }
 
 .premium-plan {
-    border: 2px solid #dc3545;
+    border: 2px solid #63ffd7;
 }
+
+
 
 /* Hover effect */
 .subscription-plan:hover {
